@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "의료법 감염병 퀴즈",
+    "slug": "law_quiz",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.gaibee.lawquiz",
+      "versionCode": 1,
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "port": 58025
+    },
+    "ios": {
+      "bundleIdentifier": "com.gaibee.lawquiz",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    }
+  }
+}
